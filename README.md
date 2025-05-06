@@ -28,6 +28,12 @@
 - Update Store with Trailer Video Data
 - Embedded the youtube video make it autoplay and mute
 - Tailwind Classes to make mainContainer look awesome
+- Build Secondary Container
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Made the browse page amazing with TailwindCSS
+- usePopularMoviesCustom Hook
 
 # Features (Planning)
 - Login/Sign Up (on Netflix Home Page)
