@@ -34,6 +34,9 @@
 - TMDB Image CDN URL
 - Made the browse page amazing with TailwindCSS
 - usePopularMoviesCustom Hook
+- GPT Search Page
+- GPT Search Bar
+- (Bonus)Multi-language Feature in our App
 
 # Features (Planning)
 - Login/Sign Up (on Netflix Home Page)
