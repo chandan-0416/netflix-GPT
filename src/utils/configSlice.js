@@ -1,4 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
+// eslint-disable-next-line 
 import lang from "./languageConstants";
 
 const configSlice=createSlice({

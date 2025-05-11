@@ -18,6 +18,7 @@ const usePopularMovies =() =>{
     };
     useEffect(() =>{
      getPopularMovies();
+     // eslint-disable-next-line 
     },[]);
 };
 

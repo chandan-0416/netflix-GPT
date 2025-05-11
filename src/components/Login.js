@@ -60,6 +60,7 @@ const Login = () => {
         password.current.value
       )
       .then((userCredential) => {
+        // eslint-disable-next-line 
     const user = userCredential.user;
   
   })

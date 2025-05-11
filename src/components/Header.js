@@ -39,11 +39,11 @@ const Header = () => {
         navigate("/")
         }
     });
-   // unsubscribe when component unmounts
+  
     return () => unsubscribe();
+     // eslint-disable-next-line
   },[]); 
 const handleGptSearchClick=()=>{
-  // Toggle GPT Search
     dispatch(toggleGptSearchView());
 };
 const handleLanguageChange=(e)=>{
