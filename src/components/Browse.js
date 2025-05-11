@@ -6,7 +6,6 @@ import MainContainer from "./MainContainer";
 import SecondaryContainer from "./SecondaryContainer";
 import GptSearch from "./GptSearch";
 
-
 const Browse = () => {
   const showGptSearch=useSelector(store=> store.gpt.showGptSearch);
   useNowPlayingMovies();
@@ -22,16 +21,6 @@ const Browse = () => {
       <SecondaryContainer />
       </>
       )}
-
-    
-    {/**
-    MainContainer
-      - VideoBackground
-      - VideoTitle
-    SecondaryContainer
-      - MoiveList * n
-          - cards * n
-    */}
     </div>
   );
 };

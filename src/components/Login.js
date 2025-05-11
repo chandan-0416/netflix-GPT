@@ -9,13 +9,10 @@ import { BG_URL, USER_AVATAR } from "../utils/constants";
 const Login = () => {
  const [isSignInForm, setIsSignInForm]= useState(true);
  const [errorMessage, setErrorMessage]=useState(null);
-
  const dispatch = useDispatch();
-
  const name = useRef(null);
  const email =useRef(null);
  const password =useRef(null);
-
  const handleButtonClick =()=>{
     // Validate the form data
   const message =checkValidateData(email.current.value, password.current.value);
@@ -81,12 +78,12 @@ const Login = () => {
     <div>
     <Header />
     <div className="absolute">
-    <img src={BG_URL}
+    <img className="h-full-screen object-cover" src={BG_URL}
       alt="logo" />
     </div>
     <form 
     onSubmit={(e) => e.preventDefault()}
-    className="w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">
+    className="w-full md:w-3/12 absolute p-12 bg-black my-36 mx-auto right-0 left-0 text-white rounded-lg bg-opacity-80">
     <h1 className="font-bold text-3xl py-4">{isSignInForm ? "Sign In" : "Sign Up "} 
     </h1>
     {!isSignInForm && ( 
@@ -122,5 +119,4 @@ const Login = () => {
     </div>
   )
 }
-
-export default Login
+export default Login;

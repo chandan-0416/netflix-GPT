@@ -37,6 +37,9 @@
 - GPT Search Page
 - GPT Search Bar
 - (Bonus)Multi-language Feature in our App
+- Build a movie recommendation platform integrated with TMDB API to showcase movies and powered by Gemini-2.0-flash AI(model) for personalized recommendations.
+- create .env file
+- make the Responsive website
 
 # Features (Planning)
 - Login/Sign Up (on Netflix Home Page)
