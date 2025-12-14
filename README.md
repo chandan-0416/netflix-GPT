@@ -41,7 +41,7 @@
 - create .env file
 - make the Responsive website
 
-# Features (Planning)
+# Features (Planning) | NetflixGenAI
 - Login/Sign Up (on Netflix Home Page)
     - sign in / sign up Form
     - redirect to Browse Page
